@@ -1,0 +1,710 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"En",
+				"Enumerable"
+			],
+			[
+				"cu",
+				"currency"
+			],
+			[
+				"cur",
+				"currencies"
+			],
+			[
+				"method",
+				"method_id"
+			],
+			[
+				"str",
+				"String"
+			],
+			[
+				"att",
+				"attr_name"
+			],
+			[
+				"attr",
+				"attr_name"
+			],
+			[
+				"fla",
+				"flavor"
+			],
+			[
+				"del",
+				"delicious"
+			],
+			[
+				"w",
+				"w	attr_writer .."
+			],
+			[
+				"a",
+				"a"
+			],
+			[
+				"co",
+				"combine_anagrams"
+			],
+			[
+				"array",
+				"Array"
+			],
+			[
+				"rps",
+				"rps_tournament_winner"
+			],
+			[
+				"ra",
+				"raise"
+			],
+			[
+				"b",
+				"begin	begin … rescue … end"
+			],
+			[
+				"count",
+				"word_count"
+			],
+			[
+				"s",
+				"sca	scan(/../) { |match| .. }"
+			],
+			[
+				"click",
+				"click_link"
+			],
+			[
+				"cli",
+				"click_link"
+			],
+			[
+				"edit",
+				"edit_task_path"
+			],
+			[
+				"tasks",
+				"tasks_path"
+			],
+			[
+				"clic",
+				"click_button"
+			],
+			[
+				"ta",
+				"task"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/home/daniel/code/ff_ticket/Rakefile",
+			"settings":
+			{
+				"buffer_size": 563,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/daniel/code/ff_ticket/spec/spec_helper.rb",
+			"settings":
+			{
+				"buffer_size": 497,
+				"line_ending": "Unix",
+				"name": "ENV['RAILS_ENV'] ||= 'test'"
+			}
+		},
+		{
+			"file": "/home/daniel/code/ff_ticket/Gemfile",
+			"settings":
+			{
+				"buffer_size": 677,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/daniel/code/ff_ticket/lib/ff_ticket/ticket.rb",
+			"settings":
+			{
+				"buffer_size": 88,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/daniel/code/ff_ticket/lib/ff_ticket/version.rb",
+			"settings":
+			{
+				"buffer_size": 40,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/daniel/code/ff_ticket/lib/ff_ticket/engine.rb",
+			"settings":
+			{
+				"buffer_size": 449,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/daniel/code/ff_ticket/ff_ticket.gemspec",
+			"settings":
+			{
+				"buffer_size": 891,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 54.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/daniel/code/ff_ticket/Gemfile.lock",
+		"/home/daniel/code/ff_ticket/lib/ff_ticket/controllers.rb",
+		"/home/daniel/code/ff_ticket_0/lib/ff_ticket/engine.rb",
+		"/home/daniel/code/ff_ticket/lib/ff_ticket/controllers",
+		"/home/daniel/code/ff_ticket_0/lib/ff_ticket/controllers.rb",
+		"/home/daniel/code/ff_ticket_0/lib/ff_ticket/version.rb",
+		"/home/daniel/code/ff_ticket_0/lib/ff_ticket.rb",
+		"/home/daniel/code/ff_ticket/lib/ff_ticket/engine.rb",
+		"/home/daniel/code/ff_ticket/Gemfile",
+		"/home/daniel/code/ff_ticket_0/Gemfile",
+		"/home/daniel/code/ff_ticket/test/dummy/Rakefile",
+		"/home/daniel/code/ff_ticket/lib/ff_ticket/ticket.rb",
+		"/home/daniel/code/ff_ticket/config/routes.rb",
+		"/home/daniel/code/testplugin/ffcrm_awesome/Gemfile",
+		"/home/daniel/code/testplugin/ffcrm_awesome/Gemfile.lock",
+		"/home/daniel/code/wpcrm4/Gemfile.lock",
+		"/home/daniel/code/fat_free_crm/app/views/layouts/admin/application.html.haml",
+		"/home/daniel/code/wpcrm4/Gemfile",
+		"/home/daniel/code/ffcrm_app/db/schema.rb",
+		"/home/daniel/code/wpcrm4/config/settings.default.yml",
+		"/home/daniel/code/wpcrm4/config/routes.rb",
+		"/home/daniel/code/wpcrm4/config/application.rb",
+		"/home/daniel/code/wpcrm4/Gemfile.lock.old",
+		"/home/daniel/code/wpcrm4/public/index.html.default",
+		"/home/daniel/code/wpcrm4/config/database.yml",
+		"/home/daniel/.bash_history~",
+		"/home/daniel/.bash_logout",
+		"/home/daniel/.bash_profile",
+		"/home/daniel/.bashrc",
+		"/home/daniel/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/daniel/code/wpcrm3/Gemfile",
+		"/home/daniel/code/wpcrm3/Gemfile.lock.old",
+		"/media/daniel/TI10658600C/Documents and Settings/Daniel/Documents/Goodman mfg Houston tx 77008.txt",
+		"/home/daniel/code/wpcrm_01/Gemfile",
+		"/home/daniel/code/tasks/spec/spec_helper.rb",
+		"/home/daniel/.thunderbird/profiles.ini",
+		"/home/daniel/Documents/It is not the critic who counts.txt",
+		"/home/daniel/169/169.2.path.txt",
+		"/home/daniel/Documents/Startup idea.txt",
+		"/media/daniel/PENDRIVE/Transfer/code/Tools/DD4 Dynamic 404s/404.cfm_generateRedirect_insertSQL_v2.py",
+		"/home/daniel/169/hw1/part6t.rb",
+		"/home/daniel/169/hw1/part6.rb",
+		"/home/daniel/169/hw1/part5.rb",
+		"/home/daniel/169/hw1/part4.rb",
+		"/home/daniel/169/hw1/part3.rb",
+		"/home/daniel/169/hw1/part2.rb",
+		"/home/daniel/169/hw1/part1.rb",
+		"/home/daniel/169/hw1/part7.rb",
+		"/home/daniel/.config/sublime-text-3/Packages/Ruby/Ruby.sublime-build",
+		"/home/daniel/.config/sublime-text-3/Packages/RubyTest/RubyTest.sublime-settings",
+		"/home/daniel/.config/sublime-text-3/Packages/User/html.sublime-build",
+		"/home/daniel/.config/sublime-text-3/Packages/BeautifyRuby/BeautifyRuby.sublime-settings",
+		"/home/daniel/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/daniel/code/tasks/doc/README_FOR_APP",
+		"/home/daniel/tasks/Gemfile",
+		"/home/daniel/tasks/app/views/layouts/application.html.erb",
+		"/home/daniel/tasks/app/views/tasks/_form.html.erb",
+		"/home/daniel/tasks/config/routes.rb",
+		"/home/daniel/tasks/app/models/task.rb",
+		"/home/daniel/tasks/app/views/tasks/index.html.erb",
+		"/home/daniel/tasks/app/assets/stylesheets/tasks.css.scss",
+		"/home/daniel/tasks/app/controllers/tasks_controller.rb",
+		"/home/daniel/tasks/spec/spec_helper.rb",
+		"/home/daniel/tasks/app/views/tasks/edit.html.erb",
+		"/home/daniel/tasks/spec/controllers/tasks_controller_spec.rb",
+		"/home/daniel/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/daniel/tasks/Guardfile",
+		"/home/daniel/tmp/libpeerconnection.log"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/home/daniel/code/wpcrm4/app/views",
+			"/home/daniel/code/fat_free_crm/app/views",
+			"/home/daniel/code/wpcrm4",
+			"/home/daniel/code/ffcrm_app",
+			"/home/daniel/code/wpcrm4",
+			"/home/daniel/code/ffcrm_app",
+			"/home/daniel/code/wpcrm4",
+			"/home/daniel/code/tasks",
+			"/home/daniel/tasks"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"fat free",
+			"h3",
+			"fat",
+			"gem",
+			"rails",
+			"git",
+			"subl\\n",
+			"git commit -m ",
+			"^ls",
+			"^bundle exec guard\\n",
+			"^rails new crm_10 -T\\n",
+			"exit\\n",
+			"^rails s\\n",
+			"^rails g rspec:install\\n",
+			"^rails g\\n",
+			"guard init rspec\\n",
+			"ruby -v\\n",
+			"^cd \\.\\.\\n",
+			"^bundle install\\n",
+			"^sudo bundle install\\n",
+			"^bundle\\n",
+			"cd tasks\\n",
+			"fat free crm",
+			"content",
+			"dsl",
+			"method",
+			"end",
+			"how can we mobilize the population to promote touris in their own town?\n...\nhow can we mobilize former residents to promote tourism to this town?\n...\nif we do succeed in promoting the town through residnts/frmer, can we get them, as a result to vacation in town.\n\nthere is the notion of a room night, but also there is the notion of the restaurant night, the shopping night...all of these contribute to the local economy.\n\nwe measure hotel nights typically...let me ask this question? Why do we care a bout a hotel night? Why do hotels exist? And,...what does a hotel night represent for the local economy? ... we measure hotel nights because they are the easy thing to measure...but they are not the only reason that we run cvbs...cvbs do not exist for the hotels and the businesses that make your city attractive do not exist for the hotels. Though our members are typically hotels and restaurants, there is something which can be gained by recognizing that hotels, and conventions ultimately come to a city, ?? to simply fill up a vacant facility which exxists to be filled? No, we as an industry exist to lift the entire local economy. We build that convention center and we build and support and promote hotels to bring people in to spend their meeting dollars at our restaurants, at our boutiques and local stores, at our attractions. These, including the hotels and the conventions centers, are our local jobs.",
+			"::DSL",
+			"turn",
+			"rspec",
+			"autotest"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/home/daniel/code/ff_ticket/Rakefile",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 563,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								563,
+								563
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 160.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/daniel/code/ff_ticket/spec/spec_helper.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 497,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								497,
+								497
+							]
+						],
+						"settings":
+						{
+							"auto_name": "ENV['RAILS_ENV'] ||= 'test'",
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/home/daniel/code/ff_ticket/Gemfile",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 677,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								677,
+								677
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/home/daniel/code/ff_ticket/lib/ff_ticket/ticket.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 88,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/home/daniel/code/ff_ticket/lib/ff_ticket/version.rb",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 40,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								40,
+								40
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/home/daniel/code/ff_ticket/lib/ff_ticket/engine.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 449,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								104,
+								104
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/home/daniel/code/ff_ticket/ff_ticket.gemspec",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 891,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								891,
+								891
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 112.0
+	},
+	"project": "tickets.plugin.wpcrm.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"gems",
+				"ff_ticket/ff_ticket.gemspec"
+			],
+			[
+				"applica",
+				"config/application.rb"
+			],
+			[
+				"part7",
+				"part7.rb"
+			],
+			[
+				"r",
+				"doc/README_FOR_APP"
+			],
+			[
+				"gem",
+				"Gemfile"
+			],
+			[
+				"rou",
+				"config/routes.rb"
+			],
+			[
+				"spec_",
+				"spec/spec_helper.rb"
+			],
+			[
+				"gemf",
+				"Gemfile"
+			],
+			[
+				"application.h",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"_",
+				"app/views/tasks/_form.html.erb"
+			],
+			[
+				"rout",
+				"config/routes.rb"
+			],
+			[
+				"task",
+				"app/controllers/tasks_controller.rb"
+			],
+			[
+				"ind",
+				"app/views/tasks/index.html.erb"
+			],
+			[
+				"route",
+				"config/routes.rb"
+			],
+			[
+				"guar",
+				"Guardfile"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"~/code/wpcrm4.sublime-project"
+			],
+			[
+				"wpcr",
+				"~/code/wpcrm4.sublime-project"
+			],
+			[
+				"c",
+				"~/Documents/sublime_projects/CRM.sublime-project"
+			],
+			[
+				"crmo2",
+				"~/Documents/sublime_projects/crm02.sublime-project"
+			],
+			[
+				"crm",
+				"~/Documents/sublime_projects/CRM.sublime-project"
+			],
+			[
+				"ne",
+				"~/Documents/sublime_projects/nettutsplus_tasks.sublime-project"
+			],
+			[
+				"cr",
+				"~/Documents/sublime_projects/CRM.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 271.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
