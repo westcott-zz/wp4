@@ -1,4 +1,16 @@
 Wpcrm4::Application.routes.draw do
+  resources :comments, only: :new
+  #resources :tickets
+
+  resources :tickets, :id => /\d+/ do
+    collection do
+      post :filter
+      post :auto_complete
+    end
+    member do
+      put :complete
+    end
+  end
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

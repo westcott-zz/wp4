@@ -115,7 +115,7 @@
 			"file": "/home/daniel/code/ff_ticket/spec/spec_helper.rb",
 			"settings":
 			{
-				"buffer_size": 497,
+				"buffer_size": 569,
 				"line_ending": "Unix",
 				"name": "ENV['RAILS_ENV'] ||= 'test'"
 			}
@@ -124,7 +124,7 @@
 			"file": "/home/daniel/code/ff_ticket/Gemfile",
 			"settings":
 			{
-				"buffer_size": 677,
+				"buffer_size": 1017,
 				"line_ending": "Unix"
 			}
 		},
@@ -132,15 +132,15 @@
 			"file": "/home/daniel/code/ff_ticket/lib/ff_ticket/ticket.rb",
 			"settings":
 			{
-				"buffer_size": 88,
+				"buffer_size": 117,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/home/daniel/code/ff_ticket/lib/ff_ticket/version.rb",
+			"file": "/home/daniel/code/ff_ticket/app/models/ff_ticket/ticket.rb",
 			"settings":
 			{
-				"buffer_size": 40,
+				"buffer_size": 158,
 				"line_ending": "Unix"
 			}
 		},
@@ -378,15 +378,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 497,
+						"buffer_size": 569,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								497,
-								497
+								0,
+								0
 							]
 						],
 						"settings":
@@ -408,15 +408,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 677,
+						"buffer_size": 1017,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								677,
-								677
+								0,
+								0
 							]
 						],
 						"settings":
@@ -435,7 +435,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 88,
+						"buffer_size": 117,
 						"regions":
 						{
 						},
@@ -458,19 +458,19 @@
 				},
 				{
 					"buffer": 4,
-					"file": "/home/daniel/code/ff_ticket/lib/ff_ticket/version.rb",
+					"file": "/home/daniel/code/ff_ticket/app/models/ff_ticket/ticket.rb",
 					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 40,
+						"buffer_size": 158,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								40,
-								40
+								0,
+								0
 							]
 						],
 						"settings":
@@ -502,7 +502,9 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -656,6 +658,10 @@
 		"height": 500.0,
 		"selected_items":
 		[
+			[
+				"ta",
+				"~/Documents/sublime_projects/tasks.sublime-project"
+			],
 			[
 				"",
 				"~/code/wpcrm4.sublime-project"

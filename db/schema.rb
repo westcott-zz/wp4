@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20121221033947) do
+ActiveRecord::Schema.define(:version => 20131230061141) do
 
   create_table "account_contacts", :force => true do |t|
     t.integer  "account_id"
@@ -195,6 +195,13 @@ ActiveRecord::Schema.define(:version => 20121221033947) do
   end
 
   add_index "emails", ["mediator_id", "mediator_type"], :name => "index_emails_on_mediator_id_and_mediator_type"
+
+  create_table "ff_ticket_tickets", :force => true do |t|
+    t.string   "title",       :null => false
+    t.string   "description", :null => false
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
+  end
 
   create_table "field_groups", :force => true do |t|
     t.string   "name",       :limit => 64
@@ -386,6 +393,25 @@ ActiveRecord::Schema.define(:version => 20121221033947) do
 
   add_index "tasks", ["assigned_to"], :name => "index_tasks_on_assigned_to"
   add_index "tasks", ["user_id", "name", "deleted_at"], :name => "index_tasks_on_user_id_and_name_and_deleted_at", :unique => true
+
+  create_table "tickets", :force => true do |t|
+    t.string   "title"
+    t.text     "description"
+    t.string   "status",       :limit => 32
+    t.datetime "created_at",                 :null => false
+    t.datetime "updated_at",                 :null => false
+    t.integer  "user_id"
+    t.integer  "contact_id"
+    t.datetime "due_at"
+    t.datetime "completed_at"
+    t.datetime "deleted_at"
+    t.string   "bucket",       :limit => 32
+    t.integer  "assigned_to"
+    t.integer  "assigned_by"
+  end
+
+  add_index "tickets", ["contact_id"], :name => "index_tickets_on_contact_id"
+  add_index "tickets", ["user_id"], :name => "index_tickets_on_user_id"
 
   create_table "users", :force => true do |t|
     t.string   "username",            :limit => 32, :default => "",    :null => false

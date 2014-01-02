@@ -8,7 +8,7 @@ gem 'rails', '3.2.14'
 gem 'mysql2'
 
 gem 'fat_free_crm', :git => 'git://github.com/fatfreecrm/fat_free_crm.git'
-gem 'ff_ticket', :path => '/home/daniel/code/ff_ticket'
+#gem 'ff_ticket', :path => '/home/daniel/code/ff_ticket'
 #gem 'ffcrm_merge', :github => 'fatfreecrm/ffcrm_merge'
 
 # Gems used only for assets and not required
@@ -25,6 +25,25 @@ end
 
 gem 'jquery-rails'
 
+group :test, :development do
+  gem 'ruby-debug',   :platform => :mri_18
+  gem 'debugger',   :platform => :mri_19
+  #gem 'turn'
+  gem 'rspec-rails'
+  gem 'shoulda-matchers'
+  gem 'guard-rspec'
+  gem 'guard-livereload'
+  gem 'ruby-growl'
+  gem 'launchy'
+
+  gem 'capybara', '~> 2.0.3'
+  gem 'selenium-webdriver'
+  gem 'database_cleaner'
+  gem "acts_as_fu"
+  gem 'factory_girl_rails'
+  gem 'zeus' unless ENV["CI"]
+  gem 'coveralls', :require => false
+end
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
