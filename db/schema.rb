@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140108051042) do
+ActiveRecord::Schema.define(:version => 20140108060126) do
 
   create_table "account_contacts", :force => true do |t|
     t.integer  "account_id"
@@ -395,24 +395,25 @@ ActiveRecord::Schema.define(:version => 20140108051042) do
   add_index "tasks", ["user_id", "name", "deleted_at"], :name => "index_tasks_on_user_id_and_name_and_deleted_at", :unique => true
 
   create_table "tickets", :force => true do |t|
-    t.string   "title"
-    t.text     "description"
-    t.string   "status",           :limit => 32
-    t.datetime "created_at",                     :null => false
-    t.datetime "updated_at",                     :null => false
     t.integer  "user_id"
-    t.integer  "contact_id"
+    t.integer  "assigned_to"
+    t.integer  "completed_by"
+    t.string   "title"
+    t.integer  "asset_id"
+    t.string   "asset_type"
+    t.string   "priority",         :limit => 32
+    t.string   "category",         :limit => 32
+    t.string   "bucket",           :limit => 32
     t.datetime "due_at"
     t.datetime "completed_at"
     t.datetime "deleted_at"
-    t.string   "bucket",           :limit => 32
-    t.integer  "assigned_to"
-    t.string   "category",         :limit => 32
-    t.integer  "completed_by"
-    t.string   "asset_type"
-    t.integer  "asset_id"
+    t.datetime "created_at",                     :null => false
+    t.datetime "updated_at",                     :null => false
     t.string   "background_info"
     t.text     "subscribed_users"
+    t.text     "description"
+    t.string   "status",           :limit => 32
+    t.integer  "contact_id"
   end
 
   add_index "tickets", ["contact_id"], :name => "index_tickets_on_contact_id"
