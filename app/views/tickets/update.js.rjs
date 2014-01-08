@@ -1,0 +1,21 @@
+id = dom_id(@ticket)
+if @ticket.errors.empty?
+
+  if !called_from_index_page?       # If it's not Tasks tab then we just reload appropriate
+    page << replace_content(@ticket)  # partial with the new ticket, and update recent items.
+    page[:recently].replace :partial => "shared/recently"
+  else
+    if @ticket.assigned_to != @ticket_before_update.assigned_to
+      page << reassign(id)
+    elsif @ticket.bucket != @ticket_before_update.bucket
+      page << reschedule(id)
+    else
+      page << replace_content(@ticket, @ticket.bucket)
+    end
+  end
+
+else # Errors
+  page[id].visual_effect :shake, :duration => 0.25, :distance => 6
+  page[:ticket_title].focus
+  page[:ticket_submit].enable
+end

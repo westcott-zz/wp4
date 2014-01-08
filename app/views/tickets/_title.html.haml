@@ -1,0 +1,8 @@
+.title_tools
+  = link_to_inline(:create_ticket, url_for(:action => :new, :view => @view), :text => t(:create_ticket))
+.title#title
+  = (@view == "assigned" ? t(:assigned_tickets) : t(:tickets))
+  = image_tag("loading.gif", :size => :thumb, :id => "loading", :style => "display: none;")
+
+.remote#options{ hidden }
+.remote#create_ticket{ hidden }

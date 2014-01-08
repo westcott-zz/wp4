@@ -1,0 +1,14 @@
+= simple_form_for(@ticket, :html => one_submit_only(:ticket), :remote => true) do |f|
+  = link_to_close new_ticket_path + "?view=#{@view}"
+  = hidden_field_tag :view, @view
+  = hidden_field_tag "ticket[user_id]", current_user.id
+  = hidden_field_tag "ticket[asset_id]", "#{@asset.id if @asset}"
+  = hidden_field_tag "ticket[asset_type]", "#{@asset.class if @asset}"
+
+  = render "tickets/top_section",    :f => f
+  = render "fields/groups", :f => f
+
+  .buttonbar
+    = f.submit t :create_ticket
+    #{t :or}
+    = link_to_cancel new_ticket_path + "?view=#{@view}"
