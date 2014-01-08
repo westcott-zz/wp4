@@ -85,11 +85,11 @@
 			],
 			[
 				"edit",
-				"edit_task_path"
+				"edit_ticket_path"
 			],
 			[
-				"tasks",
-				"tasks_path"
+				"tickets",
+				"tickets_path"
 			],
 			[
 				"clic",
@@ -97,7 +97,7 @@
 			],
 			[
 				"ta",
-				"task"
+				"ticket"
 			]
 		]
 	},
